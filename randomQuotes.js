@@ -1,5 +1,4 @@
 function quote(){
-	//Math.seedrandom();
 	var num = Math.floor((Math.random() * 19) + 1);
 	document.getElementById("quote").innerHTML = quotes[num];
 	document.getElementById("author").innerHTML = "by " + authors[num];
