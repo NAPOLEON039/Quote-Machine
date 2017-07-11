@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale:1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="quotes.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+	<link href="http://designers.hubspot.com/hs-fs/hub/327485/file-2054199286-css/font-awesome.css" rel="stylesheet">
+	<title>Quotes Machine</title>
+	<script src="randomQuotes.js" type="text/javascript"></script>
+	<script>
+		window.onload = quote;
+	</script>
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<h1 class="navbar-brand">Random Quotes</h1>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="jumbotron text-center" id="quote-bg">
+			<h3>A fresh quote coming up!</h3>
+			<div class="container text-center">
+				<p id="quote">Here is a new quote</p>
+				<p id="author" class="text-right">Anonymous</p>
+				<a href="https://www.twitter.com" class="btn btn-info">Tweet about this site! <i class="fa fa-twitter"></i></a>
+				<button class="btn btn-primary" onclick="quote();">New Quote</button> 
+			</div>
+			
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
