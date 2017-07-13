@@ -1,7 +1,7 @@
 function quote(){
 	var num = Math.floor((Math.random() * 19) + 1);
 	document.getElementById("quote").innerHTML = quotes[num];
-	document.getElementById("author").innerHTML = "by " + authors[num];
+	document.getElementById("author").innerHTML = "-by " + authors[num];
 }
 var quotes = [
 "Don’t wish it was easier, wish you were better. Don’t wish for less problems, wish for more skills. Don’t wish for less challenge, wish for more wisdom.",
